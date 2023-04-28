@@ -1,5 +1,37 @@
-template-repository (1.0-1) unstable; urgency=medium
+libmodule-install-extratests-perl (0.008-3) unstable; urgency=medium
 
-  * Initial release
+  [ gregor herrmann ]
+  * debian/*: update URLs from {search,www}.cpan.org to MetaCPAN.
 
- -- Tsic404 <liuheng@deepin.org>  Sat, 28 Jan 2023 13:46:49 +0800
+  [ Debian Janitor ]
+  * Set upstream metadata fields: Repository.
+  * Bump debhelper dependency to >= 9, since that's what is used in debian/compat.
+  * Bump debhelper from deprecated 9 to 10.
+  * Update standards version to 4.1.5, no changes needed.
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Tue, 06 Dec 2022 12:49:09 +0000
+
+libmodule-install-extratests-perl (0.008-2) unstable; urgency=medium
+
+  * Team upload.
+
+  [ Salvatore Bonaccorso ]
+  * Update Vcs-Browser URL to cgit web frontend
+  * Update Vcs-* headers for switch to salsa.debian.org
+
+  [ gregor herrmann ]
+  * Mark package as autopkgtest-able.
+  * Add missing build and runtime dependency on libmodule-install-perl.
+    (Closes: #896540)
+  * Use HTTPS for some URLs in debian/*.
+  * Bump debhelper compatibility level to 9.
+  * Declare compliance with Debian Policy 4.1.4.
+
+ -- gregor herrmann <gregoa@debian.org>  Sun, 22 Apr 2018 17:06:09 +0200
+
+libmodule-install-extratests-perl (0.008-1) unstable; urgency=low
+
+  * Initial packaging release.
+    Closes: bug#700985.
+
+ -- Jonas Smedegaard <dr@jones.dk>  Wed, 20 Feb 2013 05:09:08 +0100
